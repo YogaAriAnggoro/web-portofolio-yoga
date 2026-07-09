@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --background: #eef7ff;
+  --foreground: #12304f;
+  --card: #ffffff;
+  --card-foreground: #12304f;
+  --border: #d8e9fb;
+  --accent-blue: #8ecbff;
+  --accent-yellow: #ffe89a;
+  --accent-purple: #7d5cff;
+  --input-bg: #ffffff;
+  --input-border: #d8e9fb;
+  --input-text: #12304f;
+  --input-focus: #1d5d97;
+}
+
+.dark {
+  --background: #0b1528;
+  --foreground: #eef7ff;
+  --card: #0f1f38;
+  --card-foreground: #eef7ff;
+  --border: #213550;
+  --accent-blue: #408ecf;
+  --accent-yellow: #d6b533;
+  --accent-purple: #9c80ff;
+  --input-bg: #0b1528;
+  --input-border: #213550;
+  --input-text: #eef7ff;
+  --input-focus: #8ecbff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --font-sans: var(--font-plus-jakarta);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta), sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+* {
+  border-color: var(--border);
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.15s ease;
+}
+
+::selection {
+  background: rgba(255, 232, 154, 0.65);
+  color: #12304f;
+}

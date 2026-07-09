@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Saya</title>
+    <!-- CSS Internal dipindahkan ke External (style.css) sesuai standar -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigasi Utama -->
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Saya</a>
+      <a href="#projects">Proyek & Pengalaman</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="main-content">
+      <!-- Bagian Header / Hero -->
+      <section id="home">
+        <div class="hero-container">
+          <div class="hero-text">
+            <h1>Halo, Saya Yoga Ari Anggoro</h1>
+            <h3>Junior Web Developer & Graphic Designer </h3>
+            <p>
+              Selamat datang di portofolio web saya. Saya adalah mahasiswa semester 6 jurusan D4 Manajemen Informatika Fakultas Vokasi Universitas Negeri Surabaya yang memiliki minat dan skill di bidang Frontend Developer, UI/UX Designer dan juga Graphic Designer. Saya memiliki kemampuan inovasi yang tinggi untuk belajar dan menciptakan proyek yang yang modern, responsif, serta berorientasi pada kebutuhan pengguna dengan pendekatan desain dan teknologi yang terintegrasi.
+            </p>
+          </div>
+          <div class="hero-image">
+            <!-- Ganti url gambar dibawah dengan foto profil asli Anda -->
+            <img src="img/FOTO%20PROFILE.png" alt="Foto Profil Yoga Ari Anggoro" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Bagian Tentang Saya -->
+      <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>
+         Sebagai seorang junior web developer dan graphic designer, saya memiliki minat dalam pengembangan web dan desain antarmuka pengguna. Saat ini saya fokus mempelajari teknologi dasar seperti HTML dan CSS serta memahami konsep UI/UX untuk menciptakan pengalaman pengguna yang lebih baik. Saya senang belajar hal baru, memecahkan masalah, dan terus mengembangkan keterampilan dalam membangun produk digital yang kreatif dan fungsional.
+        </p>
+
+        <h3>Pendidikan</h3>
+        <ul class="pendidikan" style="margin-bottom: 32px;">
+          <li>
+            <img src="img/logounesa.png" alt="Logo Universitas Negeri Surabaya">
+            <div>
+              <strong>Universitas Negeri Surabaya</strong>
+              <span>Jurusan D4 Manajemen Informatika (2023 - Sekarang)</span>
+            </div>
+          </li>
+          <li>
+            <img src="img/logosmasas.png" alt="Logo SMAN 1 Sukomoro">
+            <div>
+              <strong>SMAN 1 Sukomoro</strong>
+              <span>Jurusan IPA (2020 - 2023)</span>
+            </div>
+          </li>
+        </ul>
+
+        <h3>Keahlian</h3>
+        <ul>
+          <li>HTML (Struktur Web)</li>
+          <li>CSS (Dasar Styling)</li>
+          <li>UI/UX (Desain Antarmuka Pengguna)</li>
+          <li>Bahasa Indonesia & Inggris</li>
+        </ul>
+      </section>
+
+      <!-- Bagian Proyek & Pengalaman -->
+      <section id="projects">
+        <h2>Proyek & Pengalaman Organisasi</h2>
+        <p>Bagian ini menampilkan beberapa proyek yang telah saya kerjakan serta pengalaman organisasi yang saya ikuti sebagai bentuk pengembangan keterampilan dan pengalaman saya:</p>
+
+        <!-- Tabel Proyek -->
+        <table border="1" cellpadding="10" cellspacing="0">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama Proyek / Kegiatan</th>
+              <th>Peran</th>
+              <th>Tahun</th>
+              <th>Deskripsi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="text-align: center">1</td>
+              <td>Sinergi Unesa</td>
+              <td>Staff Media Creative</td>
+              <td>2025</td>
+              <td>Mengelola media sosial dan konten kreatif untuk kegiatan organisasi.</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">2</td>
+              <td>UKM Formadiksi KIP-K Unesa</td>
+              <td>Staff PSDM & Kominfo</td>
+              <td>2023-2025</td>
+              <td>Menjadi bagian dari tim organisasi dalam mengelola sumber daya manusia dan komunikasi informasi.</td>
+            </tr>
+            <tr>
+              <td style="text-align: center">3</td>
+              <td>BEM Fakultas Vokasi Unesa</td>
+              <td>Anggota Aktif Departemen Risnovtek</td>
+              <td>2026</td>
+              <td>Mengembangkan program dan kegiatan yang berfokus pada inovasi dan teknologi.</td>
+            </tr>
+              <tr>
+              <td style="text-align: center">4</td>
+              <td>Website Sinergi Unesa</td>
+              <td>Frontend Developer</td>
+              <td>2025</td>
+              <td>Mengembangkan dan merawat website organisasi.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <!-- Bagian Kontak -->
+      <section id="contact">
+        <h2>Hubungi Saya</h2>
+        <p>
+         Terima kasih telah mengunjungi portofolio saya. Jika Anda tertarik untuk berkolaborasi, memiliki pertanyaan, atau ingin berdiskusi mengenai proyek web dan desain, silakan isi formulir di bawah ini.
+          ini:
+        </p>
+
+        <form action="" method="post">
+          <div>
+            <label for="name"><strong>Nama Lengkap:</strong></label>
+            <br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Masukkan nama Anda"
+              required
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="email"><strong>Alamat Email:</strong></label>
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="contoh@email.com"
+              required
+            />
+          </div>
+          <br />
+
+          <div>
+            <label for="subject"><strong>Subjek Pesan:</strong></label>
+            <br />
+            <select name="subject" id="subject">
+              <option value="collab">Tawaran Kerjasama</option>
+              <option value="hiring">Lowongan Pekerjaan</option>
+              <option value="question">Pertanyaan Umum</option>
+            </select>
+          </div>
+          <br />
+
+          <div>
+            <label for="message"><strong>Pesan:</strong></label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="5"
+              placeholder="Tulis pesan Anda di sini..."
+            ></textarea>
+          </div>
+          <br />
+
+          <button type="submit">Kirim Pesan</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-custom">
+      <div class="footer-main">
+        <img src="img/profile.png" alt="Profile" class="footer-profile">
+        <div>
+          <div class="footer-title">YOGA ARI ANGGORO</div>
+          <div class="footer-contact">
+            Jln. Sendang Kamal, Kel. Kraton, Kec. Maospati, Kab. Magetan<br>
+            (+62) 877 9772 8083<br>
+            Instagram : yogaariii__<br>
+            Linkedin : yoga-ari-anggoro<br>
+            Tiktok : checkoutpilihanmu_<br>
+            Email : yoga.23049@mhs.unesa.ac.id
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        © 2026
+      </div>
+    </footer>
+  </body>
+</html>
